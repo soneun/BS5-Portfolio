@@ -10,9 +10,14 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <title>Portfolio Website</title>
-    <style></style>
+    <style>
+       .nav-link.active {
+        color: red !important;
+      }
+    </style>
   </head>
   <body>
+    <body data-bs-spy="scroll" data-bs-target="#nav-scroll"></body>
     <!--네브바-->
     <nav
       class="navbar navbar-expand-md navbar-light bg-light fixed-top"
@@ -266,5 +271,16 @@
     </section>
 
     <!--컨택트 섹션 끝-->
+    <!--푸터 섹션 시작-->
+    <footer class="bg-light"></footer>
+      <div class="container text-center">
+        <p class="mb-0 py-3 fs-5">
+          © 2022 부산IT교육센터 All rights reserved.
+          <a href="#본인블로그주소" class="text-danger fst-italic" target="_blank">MyBlog</a>
+        </p>
+      </div>
+    </footer>
+
+    <!--푸터 섹션 끝-->
   </body>
 </html>
